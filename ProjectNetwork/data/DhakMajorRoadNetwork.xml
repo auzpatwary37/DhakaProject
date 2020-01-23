@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE network SYSTEM "http://www.matsim.org/files/dtd/network_v2.dtd">
+<network>
+
+<!-- ====================================================================== -->
+
+	<nodes>
+		<node id="536889_2642087" x="536889.4264027656" y="2642087.7457197597" >
+		</node>
+		<node id="536958_2640932" x="536958.8112826373" y="2640932.127796469" >
+		</node>
+		<node id="536970_2640969" x="536970.7891587177" y="2640969.8894572402" >
+		</node>
+		<node id="536974_2642071" x="536974.6520617574" y="2642071.1230679494" >
+		</node>
+		<node id="537163_2642053" x="537163.7446386839" y="2642053.139056822" >
+		</node>
+	</nodes>
+
+<!-- ====================================================================== -->
+
+	<links capperiod="01:00:00" effectivecellsize="7.5" effectivelanewidth="3.75">
+		<link id="536889_2642087___536974_2642071" from="536889_2642087" to="536974_2642071" length="86.86487315940987" freespeed="16.666666666666668" capacity="1800.0" permlanes="2.0" oneway="1" modes="bus,car" >
+			<attributes>
+				<attribute name="access" class="java.lang.Boolean" >true</attribute>
+				<attribute name="highway" class="java.lang.String" >primary</attribute>
+				<attribute name="osmid" class="java.lang.String" >way/644729566</attribute>
+				<attribute name="ref" class="java.lang.String" >N302</attribute>
+				<attribute name="rickshaw" class="java.lang.Boolean" >false</attribute>
+			</attributes>
+		</link>
+		<link id="536958_2640932___536970_2640969" from="536958_2640932" to="536970_2640969" length="39.63099504541878" freespeed="11.11111111111111" capacity="1800.0" permlanes="2.0" oneway="1" modes="bus,car" >
+			<attributes>
+				<attribute name="access" class="java.lang.Boolean" >false</attribute>
+				<attribute name="highway" class="java.lang.String" >secondary</attribute>
+				<attribute name="osmid" class="java.lang.String" >way/502274748</attribute>
+				<attribute name="ref" class="java.lang.String" >N501</attribute>
+				<attribute name="rickshaw" class="java.lang.Boolean" >false</attribute>
+				<attribute name="sidewalk" class="java.lang.String" >none</attribute>
+				<attribute name="surface" class="java.lang.String" >concrete</attribute>
+			</attributes>
+		</link>
+		<link id="536970_2640969___536958_2640932" from="536970_2640969" to="536958_2640932" length="39.63099504541878" freespeed="11.11111111111111" capacity="1800.0" permlanes="2.0" oneway="1" modes="bus,car" >
+			<attributes>
+				<attribute name="access" class="java.lang.Boolean" >false</attribute>
+				<attribute name="highway" class="java.lang.String" >secondary</attribute>
+				<attribute name="osmid" class="java.lang.String" >way/502274748</attribute>
+				<attribute name="ref" class="java.lang.String" >N501</attribute>
+				<attribute name="rickshaw" class="java.lang.Boolean" >false</attribute>
+				<attribute name="sidewalk" class="java.lang.String" >none</attribute>
+				<attribute name="surface" class="java.lang.String" >concrete</attribute>
+			</attributes>
+		</link>
+		<link id="536970_2640969___537163_2642053" from="536970_2640969" to="537163_2642053" length="1165.6774687275451" freespeed="11.11111111111111" capacity="1800.0" permlanes="2.0" oneway="1" modes="bus,car" >
+			<attributes>
+				<attribute name="access" class="java.lang.Boolean" >false</attribute>
+				<attribute name="highway" class="java.lang.String" >secondary</attribute>
+				<attribute name="osmid" class="java.lang.String" >way/502058230</attribute>
+				<attribute name="ref" class="java.lang.String" >N501</attribute>
+				<attribute name="rickshaw" class="java.lang.Boolean" >false</attribute>
+				<attribute name="sidewalk" class="java.lang.String" >none</attribute>
+				<attribute name="surface" class="java.lang.String" >concrete</attribute>
+			</attributes>
+		</link>
+		<link id="536974_2642071___536889_2642087" from="536974_2642071" to="536889_2642087" length="86.86487315940987" freespeed="16.666666666666668" capacity="1800.0" permlanes="2.0" oneway="1" modes="bus,car" >
+			<attributes>
+				<attribute name="access" class="java.lang.Boolean" >true</attribute>
+				<attribute name="highway" class="java.lang.String" >primary</attribute>
+				<attribute name="osmid" class="java.lang.String" >way/644729566</attribute>
+				<attribute name="ref" class="java.lang.String" >N302</attribute>
+				<attribute name="rickshaw" class="java.lang.Boolean" >false</attribute>
+			</attributes>
+		</link>
+		<link id="536974_2642071___537163_2642053" from="536974_2642071" to="537163_2642053" length="192.07212304631008" freespeed="16.666666666666668" capacity="1800.0" permlanes="2.0" oneway="1" modes="bus,car" >
+			<attributes>
+				<attribute name="access" class="java.lang.Boolean" >true</attribute>
+				<attribute name="highway" class="java.lang.String" >primary</attribute>
+				<attribute name="osmid" class="java.lang.String" >way/644729565</attribute>
+				<attribute name="ref" class="java.lang.String" >N302</attribute>
+				<attribute name="rickshaw" class="java.lang.Boolean" >false</attribute>
+			</attributes>
+		</link>
+		<link id="537163_2642053___536970_2640969" from="537163_2642053" to="536970_2640969" length="1165.6774687275451" freespeed="11.11111111111111" capacity="1800.0" permlanes="2.0" oneway="1" modes="bus,car" >
+			<attributes>
+				<attribute name="access" class="java.lang.Boolean" >false</attribute>
+				<attribute name="highway" class="java.lang.String" >secondary</attribute>
+				<attribute name="osmid" class="java.lang.String" >way/502058230</attribute>
+				<attribute name="ref" class="java.lang.String" >N501</attribute>
+				<attribute name="rickshaw" class="java.lang.Boolean" >false</attribute>
+				<attribute name="sidewalk" class="java.lang.String" >none</attribute>
+				<attribute name="surface" class="java.lang.String" >concrete</attribute>
+			</attributes>
+		</link>
+		<link id="537163_2642053___536974_2642071" from="537163_2642053" to="536974_2642071" length="192.07212304631008" freespeed="16.666666666666668" capacity="1800.0" permlanes="2.0" oneway="1" modes="bus,car" >
+			<attributes>
+				<attribute name="access" class="java.lang.Boolean" >true</attribute>
+				<attribute name="highway" class="java.lang.String" >primary</attribute>
+				<attribute name="osmid" class="java.lang.String" >way/644729565</attribute>
+				<attribute name="ref" class="java.lang.String" >N302</attribute>
+				<attribute name="rickshaw" class="java.lang.Boolean" >false</attribute>
+			</attributes>
+		</link>
+	</links>
+
+<!-- ====================================================================== -->
+
+</network>
