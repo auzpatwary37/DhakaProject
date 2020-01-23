@@ -153,7 +153,7 @@ public static void main(String[] args) throws IOException, ParseException {
     	}
     	
     }
-    
+    new NetworkWriter(network).writeV2("data/DhakMajorRoadNetwork_unclean.xml");
     new NetworkCleaner().run(network);
     
     new NetworkWriter(network).writeV2("data/DhakMajorRoadNetwork.xml");
