@@ -15,7 +15,7 @@ import org.matsim.core.network.NetworkUtils;
 public class NetworkGenerator {
 public static void main(String[] args) throws IOException, ParseException {
 		
-	String fileName="data/NetworkDhaka.geojson";
+	String fileName="data/NetworkDhaka_1.geojson";
 	//BufferedReader bf=new BufferedReader(new FileReader(new File(fileName)));
 	Network network = NetworkUtils.createNetwork();
 	
