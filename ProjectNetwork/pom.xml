@@ -49,6 +49,11 @@
 			<name>Geotools repository</name>
 			<url>http://download.osgeo.org/webdav/geotools</url>
 		</repository>
+		
+		<repository>
+        <id>pt2matsim</id>
+        <url>http://dl.bintray.com/polettif/matsim</url>
+    </repository>
 		<repository>
 			<!-- For MATSim releases: -->
 			<id>matsim</id>
@@ -211,6 +216,10 @@
     <artifactId>json</artifactId>
     <version>20190722</version>
 </dependency>
-
+<dependency>
+        <groupId>org.matsim</groupId>
+        <artifactId>pt2matsim</artifactId>
+        <version>19.11</version>
+    </dependency>
 	</dependencies>
 </project>

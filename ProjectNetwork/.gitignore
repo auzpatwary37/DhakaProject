@@ -1,2 +1,5 @@
 /target/
 datalarge/*
+output/*
+data/*
+*.log
