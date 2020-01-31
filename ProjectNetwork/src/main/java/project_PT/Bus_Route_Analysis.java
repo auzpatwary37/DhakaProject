@@ -11,7 +11,7 @@ import java.util.HashSet;
 public class Bus_Route_Analysis {
 	public static void main(String[] args) throws IOException {
 	
-		String fileLoc= "data/bus_route_stop data_app.csv";
+		String fileLoc= "data/bus_route_stop data_app_mod.csv";
 		
 		BufferedReader bufferedReader= new BufferedReader(new FileReader(new File(fileLoc)));
 		
@@ -34,7 +34,7 @@ public class Bus_Route_Analysis {
 				routeId.add(route);
 			}
 			for(int i=2;i<part.length;i++) {
-				if(!stops.contains(part[i].trim())) {
+				if(!stops.contains(part[i].trim()) && part[i].trim().length() > 0) {
 					stops.add(part[i].trim());
 				}
 			}
